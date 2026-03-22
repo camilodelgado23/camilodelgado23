@@ -25,7 +25,7 @@ camilo = {
     "universidad":   "Universidad Autónoma de Occidente",
     "programa":      "Ingeniería de Datos e I.A",
     "intereses":     ["Data Engineering", "Machine Learning", "Business Intelligence"],
-    "disponible":    True  # Abierto a prácticas y oportunidades laborales
+    "disponible":    True  
 }
 ```
 
@@ -86,10 +86,6 @@ camilo = {
 | 📈 **Business Intelligence** | Visualización y análisis de datos para soporte a la toma de decisiones |
 | 🗄️ **Bases de Datos** | Modelado relacional, consultas optimizadas y gestión de datos estructurados |
 
----
-
-
----
 
 <div align="center">
 
