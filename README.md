@@ -19,8 +19,6 @@
 
 Soy estudiante de **Ingeniería de Datos e Inteligencia Artificial** en la **Universidad Autónoma de Occidente (UAO)**, con enfoque en la construcción de soluciones basadas en datos para problemas del mundo real.
 
-Me apasiona transformar datos en decisiones: desde la ingeniería de pipelines y bases de datos hasta el análisis estadístico avanzado y el desarrollo de modelos de IA. Busco activamente oportunidades de **prácticas profesionales** donde pueda aportar valor técnico y seguir creciendo en entornos de trabajo colaborativos y orientados a resultados.
-
 ```python
 camilo = {
     "ubicación":     "Cali, Colombia 🇨🇴",
