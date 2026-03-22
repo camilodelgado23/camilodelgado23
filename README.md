@@ -1,8 +1,8 @@
 <div align="center">
-
+ 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Camilo%20Delgado&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineering%20%26%20Artificial%20Intelligence&descSize=18&descAlignY=58&descColor=a8d8ea&animation=fadeIn"/>
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Camilo%20Delgado&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineering%20%7C%20Artificial%20Intelligence&descSize=18&descAlignY=58&descColor=a8d8ea&animation=fadeIn"/>
+ 
 </div>
 
 <div align="center">
