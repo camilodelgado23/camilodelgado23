@@ -88,17 +88,10 @@ camilo = {
 
 ---
 
-## 💼 Disponibilidad
-
-> 🔍 **Actualmente en búsqueda de prácticas profesionales** en áreas de Ingeniería de Datos, Análisis de Datos o Inteligencia Artificial.
-> 
-> Si tienes una oportunidad o quieres colaborar, no dudes en contactarme a través de [LinkedIn](https://www.linkedin.com/in/camilo-delgado-a69956278) o al correo **camilojosedb@gmail.com**
 
 ---
 
 <div align="center">
-
-[![Visitas](https://visitcount.itsvg.in/api?id=camilodelgado23&icon=5&color=6)](https://visitcount.itsvg.in)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer"/>
 
