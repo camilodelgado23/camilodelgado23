@@ -31,40 +31,6 @@ camilo = {
 
 ---
 
-## 🚀 Proyectos Destacados
-
-### 🏥 ClinAI — Sistema Clínico Digital Interoperable
-[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/camilodelgado23/Sistema-Clinico-Inteligente)
-[![Live](https://img.shields.io/badge/Demo-clinai.me-00b4d8?style=for-the-badge&logo=vercel&logoColor=white)](https://clinai.me)
-
-Plataforma clínica de soporte diagnóstico con arquitectura de **microservicios multi-agente**, desplegada en producción sobre DigitalOcean con Cloudflare WAF.
-
-**Capacidades principales:**
-- 🤖 **ML Service** — Predicción de diabetes con XGBoost (ONNX) + explicabilidad SHAP
-- 🧠 **DL Service** — Clasificación de retinopatía diabética con EfficientNet-B0 + Grad-CAM
-- 💬 **RAG Agent** — Agente clínico conversacional (FAISS + BM25 + LLM) con memoria por sesión
-- 🔐 **Seguridad** — JWT + RBAC (ADMIN/MEDICO/PACIENTE), AES-256, cumplimiento Ley 1581/2012 (ARCO)
-- 📋 **Interoperabilidad** — HAPI FHIR R4, almacenamiento en MinIO, PostgreSQL cifrado con pgcrypto
-
-**Stack:** `FastAPI` · `React/Vite` · `PostgreSQL` · `Docker Compose` · `ONNX Runtime` · `HAPI FHIR R4` · `MinIO` · `Nginx` · `Redis`
-
----
-
-### 📊 Azure Databricks Lakehouse — StackOverflow Analytics
-[![Repo](https://img.shields.io/badge/Azure-Databricks-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://github.com/camilodelgado23)
-
-Pipeline de datos de extremo a extremo sobre **Azure Databricks** implementando arquitectura **Medallion** completa con datos de StackOverflow (Posts & Votes, Ene–Feb 2023).
-
-**Arquitectura:**
-- 🥉 **Bronze** — Ingesta cruda desde ClickHouse S3 via `requests + pyarrow`, formato Parquet en ADLS Gen2
-- 🥈 **Silver** — Limpieza y normalización con PySpark, Delta Tables con merge incremental por `post_id` / `vote_id`, Unity Catalog (`stackoverflow.silver`)
-- 🥇 **Gold** — KPIs de negocio: `post_counts_by_user`, `vote_stats_per_post`, `top_tags` con JOINs y agregaciones PySpark
-- 📈 **Consumers** — Power BI dashboards, DuckDB ad-hoc queries, Databricks Jobs orquestados
-
-**Stack:** `Azure Databricks` · `PySpark` · `Delta Lake` · `Unity Catalog` · `ADLS Gen2` · `Azure Key Vault` · `Power BI` · `DuckDB`
-
----
-
 ## 🛠️ Stack Tecnológico
  
 **Lenguajes**
@@ -80,6 +46,8 @@ Pipeline de datos de extremo a extremo sobre **Azure Databricks** implementando 
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=for-the-badge&logo=databricks&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
  
 **Machine Learning & AI**
  
@@ -87,18 +55,22 @@ Pipeline de datos de extremo a extremo sobre **Azure Databricks** implementando 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
  
 **Bases de Datos**
  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
  
 **BI & Cloud**
  
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Azure Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 
@@ -124,10 +96,9 @@ Pipeline de datos de extremo a extremo sobre **Azure Databricks** implementando 
 | Área | Descripción |
 |------|-------------|
 | 📦 **Data Engineering** | Diseño y construcción de pipelines de datos, ETL y arquitecturas de datos escalables |
-| 🤖 **Inteligencia Artificial** | Aplicación de modelos de ML/DL y análisis predictivo a problemas reales |
+| 🤖 **Inteligencia Artificial** | Aplicación de modelos de ML y análisis predictivo a problemas reales |
 | 📈 **Business Intelligence** | Visualización y análisis de datos para soporte a la toma de decisiones |
 | 🗄️ **Bases de Datos** | Modelado relacional, consultas optimizadas y gestión de datos estructurados |
-| ☁️ **Cloud & MLOps** | Despliegue de soluciones en Azure y DigitalOcean con Docker y orquestación de pipelines |
 
 
 <div align="center">
